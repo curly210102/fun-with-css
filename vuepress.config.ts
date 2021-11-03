@@ -12,18 +12,14 @@ module.exports = {
 
   themeConfig: {
     logo: "./logo.svg",
-    repo: "",
+    repo: "curly210102/fun-with-css",
     lastUpdatedText: "最近更新",
+    contributors: false,
     sidebar: [
       "/README.md",
       {
         text: "文字动画",
-        children: [
-          {
-            text: "文字渐入",
-            link: "/text-animation/fading",
-          },
-        ],
+        children: ["/text-animation/fading", "/text-animation/battery"],
       },
     ],
   },

@@ -12,10 +12,7 @@ const page = usePageData();
 
 const store = new ReplStore({});
 
-console.log(page.value.examples)
 const example = page.value.examples[props.id];
-
-console.log(example)
 
 store.setFiles(example.files, example.main);
 

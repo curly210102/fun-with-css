@@ -19,7 +19,11 @@ module.exports = {
       "/README.md",
       {
         text: "文字动画",
-        children: ["/text-animation/fading", "/text-animation/battery"],
+        children: [
+          "/text-animation/fading",
+          "/text-animation/battery",
+          "/text-animation/spotlight",
+        ],
       },
     ],
   },

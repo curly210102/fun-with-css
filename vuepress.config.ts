@@ -25,6 +25,14 @@ module.exports = {
           "/text-animation/spotlight",
         ],
       },
+      {
+        text: "纯 CSS 实现简单功能",
+        children: ["/features/read-more"],
+      },
+      {
+        text: "工具集",
+        children: ["/tools/color-generator"],
+      },
     ],
   },
   plugins: [

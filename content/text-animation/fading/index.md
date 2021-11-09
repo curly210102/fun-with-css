@@ -14,7 +14,7 @@
 - `background-images` 设置线性渐变，初始状态为透明达到隐藏文字的效果，最终状态为字体颜色，中间为渐变过程，因此需要设置 3 屏，也就是 300% 的长度
 - `background-position` 移动背景图片位置，产生渐入效果
 
-### 注意点
+### 扩展
 
 - `background-clip` 的兼容性：[Caniuse](https://caniuse.com/?search=background-clip%3Atext)，除 Firefox 以外都需要 `-webkit-` 前缀修饰，IE 不支持
 - `background-size` 百分比相对于元素计算
